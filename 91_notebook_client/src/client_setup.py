@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # 環境変数を読み込んで設定
-DEFAULT_GRADING_SYSTEM_URL = "https://grading-system2-gc6kcexpcq-an.a.run.app"
+DEFAULT_GRADING_SYSTEM_URL = "https://grading-system26-1-gc6kcexpcq-an.a.run.app"
 GRADING_SYSTEM_URL = os.getenv('GRADING_SYSTEM_URL', DEFAULT_GRADING_SYSTEM_URL)
 
 # グローバル設定変数
